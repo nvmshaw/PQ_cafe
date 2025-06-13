@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>signIn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="sign-in.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-wrapper">
+        <div class="content-area">
+          <!-- logo text -->
+          <div class="logo">
+            logo
+          </div>
+
+          <!-- bg elements --> 
+          <div class="background-container">
+            <div class="background-inner">
+              <img
+                class="vector-1" src="/static/static/vector2.svg" alt="vector1">
+
+              <img
+                class="vector-2" src="/static/static/vector1.svg" alt="vector2">
+
+            </div>
+          </div>
+
+          <!-- gif -->
+          <img
+            class="main-illustration"
+            alt="Seeking development"
+            src="/static/static/lady-scanning.gif"
+          />
+
+          <!-- big box -->
+          <!-- create act -->
+          <div class="registration-card">
+            <div class="card-content">
+              <!-- header -->
+              <div class="header-section">
+                <div class="avatar"></div>
+                <h2 class="title">Sign in to PDF Cafe</h2>
+                <p class="subtitle">
+                  <span class="subtitle-text">Already have an account? </span>
+                  <span class="signin-link">Sign in</span>
+                </p>
+              </div>
+
+              <!-- form -->
+              <div class="form-section">
+                <!-- name -->
+                <div class="form-field">
+                  <div class="label-container">
+                    <label class="field-label">Name</label>
+                  </div>
+                  <input type="text" class="form-input" />
+                </div>
+
+                <!-- email -->
+                <div class="form-field">
+                  <div class="label-container">
+                    <label class="field-label">Email</label>
+                  </div>
+                  <input type="email" class="form-input" />
+                </div>
+
+                <!-- passwd -->
+                <div class="form-field">
+                  <div class="label-container password-label">
+                    <label class="field-label">Password</label>
+                    <div class="password-toggle">
+                      <img class="eye-icon" alt="Eye icon" src="/static/static/eye.svg" />
+                      <span class="hide-text">Hide</span>
+                    </div>
+                  </div>
+                  <input type="password" class="form-input" />
+                </div>
+
+                <!-- tandc -->
+                <div class="terms-section">
+                  <input type="checkbox" id="terms" class="checkbox" />
+                  <label for="terms" class="terms-label">
+                    <span class="terms-text">By creating an account, I agree to our </span>
+                    <span class="terms-link">Terms of use</span>
+                    <span class="terms-text"> and</span>
+                    <br />
+                    <span class="terms-link">Privacy Policy</span>
+                  </label>
+                </div>
+
+                <!-- button -->
+                <button class="login-button" disabled>
+                  Log in
+                </button>
+              </div>
+
+              <!-- or and line -->
+              <div class="divider-section">
+                <div class="divider-line"></div>
+                <span class="divider-text">OR</span>
+                <div class="divider-line"></div>
+              </div>
+
+              <!-- googlw and apple -->
+              <div class="social-login-section">
+                <button class="social-button">
+                  <div class="social-button-content">
+                    <img
+                      class="social-icon google-icon"
+                      alt="Google logo"
+                      src="/static/static/google-logo.svg"
+                    />
+                    <span class="social-text">Continue with Google</span>
+                  </div>
+                </button>
+                <button class="social-button">
+                  <div class="social-button-content">
+                    <img
+                      class="social-icon apple-icon"
+                      alt="Apple logo"
+                      src="/static/static/apple-logo.svg"
+                    />
+                    <span class="social-text">Continue with Apple</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
